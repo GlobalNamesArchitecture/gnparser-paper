@@ -186,7 +186,7 @@ Accessed 15 September 2016
 %%% 12
 \bibitem{bdiv-downloads}
 \begin{botherref}
-search | RubyGems.org | your community gem host.
+RubyGems.org.
 \url{https://rubygems.org/search?utf8=\%E2\%9C\%93\&query=biodiversity}
 Accessed 15 September 2016
 \end{botherref}
@@ -242,8 +242,8 @@ Accessed 15 September 2016
 \begin{bbook}
 \bauthor{\bsnm{Charniak}, \binits{E.}}:
 \bbtitle{Statistical Language Learning}.
-\bpublisher{MIT press}, \blocation{???}
-(\byear{1996})
+\bpublisher{{MIT} press}, \blocation{???}
+(\byear{1993})
 \end{bbook}
 \endbibitem
 
@@ -343,6 +343,7 @@ Accessed 15 September 2016
 \oauthor{\bsnm{Doenitz}, \binits{M.}}:
 parboiled2: a macro-based approach for effective generators of parsing
   expressions grammars in scala
+(\noop{2017}in preparation)
 \end{botherref}
 \endbibitem
 
@@ -432,8 +433,7 @@ Accessed 15 September 2016
   Differentiis Specificis, Nominibus Trivialibus, Synonymis Selectis, Locis
   Natalibus Secundum},
 p. \bfpage{583}
-(\byear{1753}).
-\burl{http://books.google.com/books?hl=en{\&}lr={\&}id=jQ0AAAAAQAAJ{\&}oi=fnd{\&}pg=PA1{\&}dq=Species+plantarum:+exhibentes+plantas+rite+cognitas,+ad+genera+relatas,+cum+differentiis+specificis,+nominibus+trivialibus,+synonymis+selectis,+locis+natalibus,+secundum+systema+sexu}
+(\byear{1753})
 \end{bbook}
 \endbibitem
 
