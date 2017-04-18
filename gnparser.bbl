@@ -109,7 +109,8 @@ doi:\doiurl{10.1093/bioinformatics/btm109}
 \bauthor{\bsnm{Ullman}, \binits{J.D.}}:
 \bbtitle{Foundations of Computer Science}
 vol. \bseriesno{2}.
-\bpublisher{Computer Science Press New York}, \blocation{???}
+\bpublisher{Computer Science Press New York},
+\blocation{USA}
 (\byear{1992})
 \end{bbook}
 \endbibitem
@@ -242,8 +243,9 @@ Accessed 18 April 2017
 \begin{bbook}
 \bauthor{\bsnm{Charniak}, \binits{E.}}:
 \bbtitle{Statistical Language Learning}.
-\bpublisher{{MIT} press}, \blocation{???}
-(\byear{1993})
+\bpublisher{{MIT} press},
+\blocation{USA}
+(\byear{1996})
 \end{bbook}
 \endbibitem
 
@@ -253,30 +255,38 @@ Accessed 18 April 2017
 \bauthor{\bsnm{Aho}, \binits{A.V.}},
 \bauthor{\bsnm{Ullman}, \binits{J.D.}}:
 \bbtitle{The Theory of Parsing, Translation, and Compiling}.
-\bpublisher{Prentice-Hall, Inc.}, \blocation{???}
+\bpublisher{Prentice-Hall, Inc.},
+\blocation{Upper Saddle River, NJ, USA}
 (\byear{1972})
 \end{bbook}
 \endbibitem
 
 %%% 20
 \bibitem{asveld1995fuzzy}
-\begin{botherref}
-\oauthor{\bsnm{Asveld}, \binits{P.R.J.}}:
-A fuzzy approach to erroneous inputs in context-free language recognition
-(1995)
-\end{botherref}
+\begin{bchapter}
+\bauthor{\bsnm{{Asveld}}, \binits{P.R.J.}}:
+\bctitle{A fuzzy approach to erroneous inputs in context-free language
+  recognition}.
+In: \bbtitle{Proceedings of the Fourth International Workshop on Parsing
+  Technologies IWPT'95},
+pp. \bfpage{14}--\blpage{25}.
+\bpublisher{Institute of Formal and Applied Linguistics, Charles University},
+\blocation{Prague, Czech Republic}
+(\byear{1995})
+\end{bchapter}
 \endbibitem
 
 %%% 21
 \bibitem{nadeau2007survey}
 \begin{barticle}
-\bauthor{\bsnm{Nadeau}, \binits{D.}},
-\bauthor{\bsnm{Sekine}, \binits{S.}}:
+\bauthor{\bsnm{{Nadeau}}, \binits{D.}},
+\bauthor{\bsnm{{Sekine}}, \binits{S.}}:
 \batitle{A survey of named entity recognition and classification}.
 \bjtitle{Lingvisticae Investigationes}
 \bvolume{30}(\bissue{1}),
 \bfpage{3}--\blpage{26}
-(\byear{2007})
+(\byear{2007}).
+doi:\doiurl{10.1075/li.30.1.03nad}
 \end{barticle}
 \endbibitem
 
@@ -290,8 +300,10 @@ A fuzzy approach to erroneous inputs in context-free language recognition
 \bauthor{\bsnm{Dean}, \binits{J.}}:
 \bctitle{Distributed representations of words and phrases and their
   compositionality}.
-In: \bbtitle{Advances in Neural Information Processing Systems},
-pp. \bfpage{3111}--\blpage{3119}
+In: \bbtitle{Advances in Neural Information Processing Systems 26},
+pp. \bfpage{3111}--\blpage{3119}.
+\bpublisher{Curran Associates, Inc.},
+\blocation{USA}
 (\byear{2013})
 \end{bchapter}
 \endbibitem
@@ -299,7 +311,7 @@ pp. \bfpage{3111}--\blpage{3119}
 %%% 23
 \bibitem{schmidhuber2015deep}
 \begin{barticle}
-\bauthor{\bsnm{Schmidhuber}, \binits{J.}}:
+\bauthor{\bsnm{{Schmidhuber}}, \binits{J.}}:
 \batitle{Deep learning in neural networks: An overview}.
 \bjtitle{Neural networks}
 \bvolume{61},
