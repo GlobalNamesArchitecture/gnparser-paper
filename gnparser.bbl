@@ -109,7 +109,8 @@ doi:\doiurl{10.1093/bioinformatics/btm109}
 \bauthor{\bsnm{Ullman}, \binits{J.D.}}:
 \bbtitle{Foundations of Computer Science}
 vol. \bseriesno{2}.
-\bpublisher{Computer Science Press New York}, \blocation{???}
+\bpublisher{Computer Science Press New York},
+\blocation{USA}
 (\byear{1992})
 \end{bbook}
 \endbibitem
@@ -242,7 +243,8 @@ Accessed 18 April 2017
 \begin{bbook}
 \bauthor{\bsnm{Charniak}, \binits{E.}}:
 \bbtitle{Statistical Language Learning}.
-\bpublisher{{MIT} press}, \blocation{???}
+\bpublisher{{MIT} press},
+\blocation{USA}
 (\byear{1996})
 \end{bbook}
 \endbibitem
@@ -300,7 +302,8 @@ doi:\doiurl{10.1075/li.30.1.03nad}
   compositionality}.
 In: \bbtitle{Advances in Neural Information Processing Systems 26},
 pp. \bfpage{3111}--\blpage{3119}.
-\bpublisher{Curran Associates, Inc.}, \blocation{???}
+\bpublisher{Curran Associates, Inc.},
+\blocation{USA}
 (\byear{2013})
 \end{bchapter}
 \endbibitem
