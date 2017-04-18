@@ -1,5 +1,5 @@
 \newcommand{\noop}[1]{}
-\begin{thebibliography}{45}
+\begin{thebibliography}{44}
 % BibTex style file: bmc-mathphys.bst (version 1.01), 2012-01-06
 \ifx \bisbn   \undefined \def \bisbn  #1{ISBN #1}\fi
 \ifx \binits  \undefined \def \binits#1{#1}\fi
@@ -119,7 +119,7 @@ vol. \bseriesno{2}.
 \begin{botherref}
 {GBIF} name-parser.
 \url{https://github.com/gbif/name-parser/releases/tag/name-parser-2.10}
-Accessed 17 April 2017
+Accessed 18 April 2017
 \end{botherref}
 \endbibitem
 
@@ -170,7 +170,7 @@ pp. \bfpage{111}--\blpage{122}
 \begin{botherref}
 GlobalNamesArchitecture/biodiversity: Scientific Name Parser.
 \url{https://github.com/GlobalNamesArchitecture/biodiversity}
-Accessed 17 April 2017
+Accessed 18 April 2017
 \end{botherref}
 \endbibitem
 
@@ -179,7 +179,7 @@ Accessed 17 April 2017
 \begin{botherref}
 Treetop.
 \url{https://github.com/cjheath/treetop}
-Accessed 17 April 2017
+Accessed 18 April 2017
 \end{botherref}
 \endbibitem
 
@@ -188,7 +188,7 @@ Accessed 17 April 2017
 \begin{botherref}
 RubyGems --- biodiversity search.
 \url{https://rubygems.org/search?utf8=\%E2\%9C\%93\&query=biodiversity}
-Accessed 17 April 2017
+Accessed 18 April 2017
 \end{botherref}
 \endbibitem
 
@@ -197,7 +197,7 @@ Accessed 17 April 2017
 \begin{botherref}
 Encyclopedia of Life.
 \url{http://eol.org/}
-Accessed 17 April 2017
+Accessed 18 April 2017
 \end{botherref}
 \endbibitem
 
@@ -206,7 +206,7 @@ Accessed 17 April 2017
 \begin{botherref}
 Canadian Register of Marine Species.
 \url{http://www.marinespecies.org/carms/}
-Accessed 17 April 2017
+Accessed 18 April 2017
 \end{botherref}
 \endbibitem
 
@@ -215,7 +215,7 @@ Accessed 17 April 2017
 \begin{botherref}
 iPlant Taxonomic Name Resolution Service.
 \url{http://tnrs.iplantcollaborative.org/}
-Accessed 17 April 2017
+Accessed 18 April 2017
 \end{botherref}
 \endbibitem
 
@@ -224,7 +224,7 @@ Accessed 17 April 2017
 \begin{botherref}
 Wo{RMS} - World Register of Marine Species.
 \url{http://www.marinespecies.org/}
-Accessed 17 April 2017
+Accessed 18 April 2017
 \end{botherref}
 \endbibitem
 
@@ -233,7 +233,7 @@ Accessed 17 April 2017
 \begin{botherref}
 Ruby Libraries for Biology.
 \url{http://biogems.info/}
-Accessed 17 April 2017
+Accessed 18 April 2017
 \end{botherref}
 \endbibitem
 
@@ -328,15 +328,6 @@ Technical report
 \endbibitem
 
 %%% 25
-\bibitem{parboiled2}
-\begin{botherref}
-A macro-based {PEG} parser generator for Scala 2.10+.
-\url{https://github.com/sirthias/parboiled2}
-Accessed 17 April 2017
-\end{botherref}
-\endbibitem
-
-%%% 26
 \bibitem{Myltsev:inpress-a}
 \begin{botherref}
 \oauthor{\bsnm{Myltsev}, \binits{A.}},
@@ -347,18 +338,18 @@ parboiled2: a macro-based approach for effective generators of parsing
 \end{botherref}
 \endbibitem
 
-%%% 27
+%%% 26
 \bibitem{parboiled2-gna}
 \begin{botherref}
 GlobalNamesArchitecture/parboiled2: A macro-based {PEG} parser generator for
   Scala 2.10+.
 doi:\doiurl{10.5281/zenodo.50340}.
 \url{https://github.com/GlobalNamesArchitecture/parboiled2}
-Accessed 17 April 2017
+Accessed 18 April 2017
 \end{botherref}
 \endbibitem
 
-%%% 28
+%%% 27
 \bibitem{moors2008parser}
 \begin{botherref}
 \oauthor{\bsnm{Moors}, \binits{A.}},
@@ -369,7 +360,7 @@ Parser combinators in scala
 \end{botherref}
 \endbibitem
 
-%%% 29
+%%% 28
 \bibitem{Burmako:2013:SML:2489837.2489840}
 \begin{bchapter}
 \bauthor{\bsnm{Burmako}, \binits{E.}}:
@@ -386,7 +377,7 @@ doi:\doiurl{10.1145/2489837.2489840}.
 \end{bchapter}
 \endbibitem
 
-%%% 30
+%%% 29
 \bibitem{ICTV}
 \begin{bbook}
 \bauthor{\bsnm{{King, A.M.Q., Adams, M.J., Carstens, E.B., Lefkowitz, E.J. }},
@@ -398,7 +389,7 @@ pp. \bfpage{1}--\blpage{1338}
 \end{bbook}
 \endbibitem
 
-%%% 31
+%%% 30
 \bibitem{bray2014javascript}
 \begin{botherref}
 \oauthor{\bsnm{Bray}, \binits{T.}}:
@@ -407,25 +398,25 @@ The javascript object notation ({JSON}) data interchange format
 \end{botherref}
 \endbibitem
 
-%%% 32
+%%% 31
 \bibitem{gnparser-json}
 \begin{botherref}
 {JSON} schema for gnparser output.
 \url{http://globalnames.org/schemas/gnparser.json}
-Accessed 17 April 2017
+Accessed 18 April 2017
 \end{botherref}
 \endbibitem
 
-%%% 33
+%%% 32
 \bibitem{gnparser-web}
 \begin{botherref}
 Global Names Parser Web App.
 \url{http://parser.globalnames.org}
-Accessed 17 April 2017
+Accessed 18 April 2017
 \end{botherref}
 \endbibitem
 
-%%% 34
+%%% 33
 \bibitem{Linne1753}
 \begin{bbook}
 \bauthor{\bsnm{Linne}, \binits{C.V.}}:
@@ -437,34 +428,34 @@ p. \bfpage{583}
 \end{bbook}
 \endbibitem
 
-%%% 35
+%%% 34
 \bibitem{maven-globalnames}
 \begin{botherref}
 Maven Central: Global Names Artifacts.
 \url{https://search.maven.org/#search|ga|1|globalnames}
-Accessed 17 April 2017
+Accessed 18 April 2017
 \end{botherref}
 \endbibitem
 
-%%% 36
+%%% 35
 \bibitem{gnparser-docker}
 \begin{botherref}
 Global Names Parser Docker Image.
 \url{https://hub.docker.com/r/gnames/gnparser/}
-Accessed 17 April 2017
+Accessed 18 April 2017
 \end{botherref}
 \endbibitem
 
-%%% 37
+%%% 36
 \bibitem{gn:index}
 \begin{botherref}
 Global Names Index.
 \url{http://gni.globalnames.org}
-Accessed 17 April 2017
+Accessed 18 April 2017
 \end{botherref}
 \endbibitem
 
-%%% 38
+%%% 37
 \bibitem{Boyle2013}
 \begin{barticle}
 \bauthor{\bsnm{Boyle}, \binits{B.}},
@@ -491,36 +482,36 @@ doi:\doiurl{10.1186/1471-2105-14-16}
 \end{barticle}
 \endbibitem
 
-%%% 39
+%%% 38
 \bibitem{gbifparser}
 \begin{botherref}
 gbifparser: v0.1.0
 (2015).
 doi:\doiurl{10.5281/zenodo.34848}.
 \url{http://dx.doi.org/10.5281/zenodo.34848}
-Accessed 17 April 2017
+Accessed 18 April 2017
 \end{botherref}
 \endbibitem
 
-%%% 40
+%%% 39
 \bibitem{ubio:parser}
 \begin{botherref}
 uBio Name Parser.
 \url{http://www.ubio.org/tools/explode.php}
-Accessed 17 April 2017
+Accessed 18 April 2017
 \end{botherref}
 \endbibitem
 
-%%% 41
+%%% 40
 \bibitem{botsociety:parser}
 \begin{botherref}
 Botanical Society of Britain and Ireland Taxon Name Parser.
 \url{http://bsbidb.org.uk/taxonnameparser.php}
-Accessed 17 April 2017
+Accessed 18 April 2017
 \end{botherref}
 \endbibitem
 
-%%% 42
+%%% 41
 \bibitem{Sautter2006}
 \begin{barticle}
 \bauthor{\bsnm{Sautter}, \binits{G.}},
@@ -536,7 +527,7 @@ doi:\doiurl{10.2307/1216144}
 \end{barticle}
 \endbibitem
 
-%%% 43
+%%% 42
 \bibitem{Akella2012}
 \begin{barticle}
 \bauthor{\bsnm{Akella}, \binits{L.M.}},
@@ -552,7 +543,7 @@ doi:\doiurl{10.1186/1471-2105-13-211}
 \end{barticle}
 \endbibitem
 
-%%% 44
+%%% 43
 \bibitem{Kluyver2013}
 \begin{barticle}
 \bauthor{\bsnm{Kluyver}, \binits{T.A.}},
@@ -566,13 +557,13 @@ doi:\doiurl{10.1002/ece3.529}
 \end{barticle}
 \endbibitem
 
-%%% 45
+%%% 44
 \bibitem{gnparser}
 \begin{botherref}
 GlobalNamesArchitecture/gnparser: Split scientific names to meaningful elements
   with meta information.
 \url{https://github.com/GlobalNamesArchitecture/gnparser}
-Accessed 17 April 2017
+Accessed 18 April 2017
 \end{botherref}
 \endbibitem
 
