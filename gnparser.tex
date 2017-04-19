@@ -359,6 +359,41 @@ In the past, the need to parse scientific names to form normalized names has mos
     differently spelled, and may be with or without initials and dates. This list is
     not complete. Image courtesy of~\cite{FNA2002}.}\label{figure:carex}
 
+  \vspace{5mm}
+    \resizebox{0.95\textwidth}{!}{
+      \begin{tabular}{| l | c |}
+      \hline
+      \textbf{Carex scirpoidea convoluta} &
+      \multirow{26}{*}{\includegraphics[scale=0.5]{1.png}} \\
+      & \\
+      \textbf{Carex scirpoidea var.\ convoluta} & \\
+      \textbf{Carex scirpoidea convoluta Kükenth.} & \\
+      \textbf{Carex scirpoidea var.\ convoluta Kuk.} & \\
+      \textbf{Carex scirpoidea var.\ convoluta Kük.} & \\
+      \textbf{Carex scirpoidea var.\ convoluta Kükenth.} & \\
+      \textbf{Carex scirpoidea var.\ convoluta Kükenthal} & \\
+      \textbf{Carex scirpoidea Michx.\ var.\ convoluta Kük.} & \\
+      \textbf{Carex scirpoidea Michx.\ var.\ convoluta Kükenth.} & \\
+      \textbf{Carex scirpoidea Michaux var.\ convoluta Kükenthal} & \\
+      & \\
+      \textbf{Carex scirpoidea subsp.\ convoluta} & \\
+      \textbf{Carex scirpoidea ssp.\ convoluta (Kük.) Dunlop} & \\
+      \textbf{Carex scirpoidea subsp.\ convoluta (Kük.) Dunlop} & \\
+      \textbf{Carex scirpoidea ssp.\ convoluta (Kukenth.) Dunlop} & \\
+      \textbf{Carex scirpoidea subsp.\ convoluta (Kük.) D.A.Dunlop} & \\
+      \textbf{Carex scirpoidea subsp.\ convoluta (Kük.) D.A. Dunlop} & \\
+      \textbf{Carex scirpoidea Michx.\ ssp.\ convoluta (Kük.) Dunlop} & \\
+      \textbf{Carex scirpoidea subsp.\ convoluta (Kuk.) D. A. Dunlop} & \\
+      \textbf{Carex scirpoidea Michx.\ subsp.\ convoluta (Kük.) Dunlop} & \\
+      \textbf{Carex scirpoidea Michx.\ ssp.\ convoluta (Kükenth.) Dunlop} & \\
+      \textbf{Carex scirpoidea subsp.\ convoluta (Kükenthal) D.A. Dunlop} & \\
+      \textbf{Carex scirpoidea Michx.\ subsp.\ convoluta (Kük.) D.A.Dunlop} & \\
+      \textbf{Carex scirpoidea Michx.\ subsp.\ convoluta (Kük.) D.A. Dunlop} & \\
+      \textbf{Carex scirpoidea subsp.\ convoluta (Kükenthal 1909) D.A. Dunlop 1998} & \\
+      \hline
+      \end{tabular}
+    }
+
   \end{center}
 \end{figure}
 
@@ -491,6 +526,8 @@ The \textit{gnparser} project is entirely written in Scala. It supports two majo
 
     \caption{Web Graphical User Interface~\cite{gnparser-web}. In this example a user entered a name-string of a hybrid name consisted of 21 elements.  The ``Results'' section contains detailed parsed output using compact JSON format.}\label{figure:webgui}
 
+    \vspace{5mm}
+    \includegraphics[scale=0.35]{2.png}
   \end{center}
 \end{figure}
 
@@ -676,6 +713,21 @@ The PEG approach supports nested parsing rules to create progressively more comp
   \begin{center}
     \caption{Precision/Recall for parsers applied to 1,000
     name-strings}\label{table:precision}
+    \resizebox{10cm}{!} {\begin{tabular}{|l|*{3}{l}|}
+      \hline
+                             & gnparser & gbif-parser & biodiversity \\
+      \hline
+      \textit{True Positive} & 978      & 955         & 971          \\
+      \textit{True Negative} & 13       & 12          & 13           \\
+      \textit{False Positive}& 9        & 32          & 16           \\
+      \textit{False Negative}& 0        & 1           & 0            \\
+      \textit{Precision}     & 0.989    & 0.968       & 0.984        \\
+      \textit{Recall}        & 1.0      & 0.999       & 1.0          \\
+      \textit{F1}            & 0.994    & 0.983       & 0.992        \\
+      \textit{Accuracy}      & 0.989    & 0.967       & 0.984        \\
+      \hline
+    \end{tabular}
+    }
   \end{center}
 \end{table}
 
@@ -683,6 +735,17 @@ The PEG approach supports nested parsing rules to create progressively more comp
   \begin{center}
     \caption{Accuracy of non-parseable names detection out of 100,000
     name-strings}\label{table:unparsed}
+    \resizebox{10cm}{!} {\begin{tabular}{| l | *{3}{l} |}
+      \hline
+                                     & gnparser & gbif-parser & biodiversity \\
+      \hline
+      \textit{Total discarded}       & 1131     & 1082        & 1161         \\
+      \textit{Correctly discarded}   & 1129     & 940         & 1152         \\
+      \textit{Incorrectly discarded} & 2        & 142         & 9            \\
+      \textit{Accuracy}              & 0.998    & 0.869       & 0.992        \\
+      \hline
+    \end{tabular}
+  }
   \end{center}
 \end{table}
 
@@ -782,12 +845,28 @@ In the areas of performance discussed above, there is little difference between 
 
 Results on the speed performance are given in Figure~\ref{figure:throughput}.  The performance depends on the number of CPU threads used.  On 1 thread \textit{gnparser} was 7 times faster than \textit{biodiversity}, 10 times faster on 4 threads, and 14 times faster on 12 threads.
 
-\begin{figure}
+\begin{figure}[h!]
   \begin{center}
 
     \caption{Names parsed per second by GN, GBIF and Biodiversity parsers
       (running on 1--12 parallel threads).}\label{figure:throughput}
 
+    \vspace{0.5cm}
+    \begin{tabular}{| l | *{3}{r} | c c c |}
+      \hline
+      \multirow{1}{*}Threads & gnparser & gbif-paser & biodiversity
+      & \multicolumn{3}{c |}{Ratio} \\
+      \cline{5-7}
+      & & & & gn & gbif & bio \\
+      \hline
+      1  & 8178  & 6389  & 1111 & 1 & 0.78 & 0.14 \\
+      2  & 14125 & 12638 & 1722 & 1 & 0.89 & 0.12 \\
+      4  & 25125 & 21994 & 2556 & 1 & 0.88 & 0.10 \\
+      8  & 33541 & 30972 & 2777 & 1 & 0.92 & 0.08 \\
+      12 & 36369 & 31833 & 2527 & 1 & 0.88 & 0.07 \\
+      \hline
+    \end{tabular}
+    \include{throughput}
   \end{center}
 \end{figure}
 
@@ -824,8 +903,25 @@ The performance of the scientific names parsers is summarised in Table~\ref{tabl
 
 \begin{table}[htb]
   \begin{center}
-    \caption{Summary comparison of Scientific Name Parsers}
-    \label{table:summary}
+    \caption{Summary comparison of Scientific Name Parsers}\label{table:summary}
+    \resizebox{12.5cm}{!} {\begin{tabular}{|l|*{3}{l}|}
+      \hline
+                             & gnparser & gbif-parser & biodiversity \\
+      \hline
+      \textit{Accuracy}                     & $98.9\%$ & $96.7\%$ & $98.4\%$\\
+      \textit{Hybrid formulas support}      & Yes      & No       & Yes     \\
+      \textit{Infrasubspecies support}      & Yes      & No       & Yes     \\
+      \textit{Throughput (names/s/thread)}  & 8178     & 6389     & 1111    \\
+      \textit{Parsing details}              & Complete & Partial  & Complete\\
+      \textit{Library for the same language}& Yes      & Yes      & Yes     \\
+      \textit{Library for other languages}  & Yes      & Yes      & No      \\
+      \textit{Command line tool}            & Yes      & No       & Yes     \\
+      \textit{Socket server}                & Yes      & No       & Yes     \\
+      \textit{Web Interface}                & Yes      & Yes      & Yes     \\
+      \textit{RESTful service}              & Yes      & Yes      & Yes     \\
+      \hline
+    \end{tabular}
+  }
   \end{center}
 \end{table}
 
